@@ -1,0 +1,116 @@
+/*
+h1 {
+    
+    font-weight: 900;
+    font-family: 'Rubik', sans-serif;
+    font-size: 8vh; 
+    margin-bottom: 3rem;
+    background: linear-gradient(to bottom , #31cdd8 , #190caa );
+    -webkit-background-clip: text;
+    color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}*/
+
+body {
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(0, 0, 32);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+      
+}
+
+
+nav {
+    padding-left: 0rem;
+    padding-top:0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(91, 36, 131)  ;
+
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+
+    color: lavender;
+    font-size: 1.1rem;
+}
+
+
+.left{
+    font-size: 1.7rem;
+}
+#intro{
+    
+    padding-top: 5rem;
+    font-weight: 200;
+    font-size: 2rem;
+    
+}
+#about{
+    font-weight: 10;
+    font-size: 1.5rem;
+    
+}
+hr {
+    width: 100%;
+    height: 1.5px;
+    background: linear-gradient(to right , transparent, white , transparent );
+    border: none;
+    margin: 1rem 0;
+}
+
+#Skills{
+    background-color: rgb(0, 0, 31);
+}
+
+#Table{
+    background-color: rgb(0, 0, 30);
+}
+
+#heading1{
+    justify-content:start;
+    color: rgb(94, 144, 236);
+    font-weight: 700;
+    font-size: 3rem;
+    padding-bottom: 0.01rem;
+}
+
+
+#heading2{
+    color: rgb(112, 184, 218);
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.1rem;
+    
+}
+
+#text1{
+    color: white;
+    font-weight: 10;
+    font-size: 1.5rem;
+    padding-left: 1.7rem;
+}
